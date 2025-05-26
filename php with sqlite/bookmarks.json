@@ -1,0 +1,298 @@
+{
+  "bookmarks": [
+    {
+      "title": "Farnam Street – FS Blog",
+      "url": "https://fs.blog/blog",
+      "notes": "Farnam Street (FS) is a blog and learning platform founded by Shane Parrish, dedicated to helping readers understand how the world really works, make better decisions, and live a better life. The site emphasizes timeless lessons on decision-making, thinking, and continuous improvement. Key topics covered include mental models, decision-making, learning, reading, and the art of living. Farnam Street also offers a podcast, \"The Knowledge Project,\" where Shane Parrish interviews experts to uncover insights on various subjects. The blog is known for its multidisciplinary approach, drawing from fields like psychology, philosophy, and business to provide readers with tools and frameworks for better thinking and decision-making. Farnam Street's mission is to master the best of what other people have already figured out, making complex ideas accessible and practical for personal and professional growth.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "James Clear – 3-2-1 Newsletter",
+      "url": "https://jamesclear.com/3-2-1",
+      "notes": "A concise weekly newsletter featuring 3 short ideas from James, 2 quotes from others, and 1 question for the reader—designed to provoke clarity, habit-building, and reflection.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Khe Hy - RadReads (Superorganizers)",
+      "url": "https://radreads.co/",
+      "notes": "Founder of RadReads, Khe Hy explores how high performers organize their digital and mental lives—from productivity systems to existential questions about meaning and success. The site explores productivity, purpose, and making high-leverage life choices. Known for its \"Superorganizers\" series and content that bridges wealth and wisdom.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "David Perell",
+      "url": "https://www.perell.com/blog",
+      "notes": "Also known as “The Writing Guy,” Perell writes about the intersection of writing, media, and the internet. He emphasizes idea development, personal leverage, and online education.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Julian Shapiro",
+      "url": "https://www.julian.com/guide",
+      "notes": "Julian distills complicated topics like writing, creativity, and growth into crystal-clear guides. He’s known for making the abstract feel actionable and immediate.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Paul Graham",
+      "url": "https://paulgraham.com/articles.html",
+      "notes": "Co-founder of Y Combinator, Paul Graham writes deeply analytical essays on startups, technology, wealth, education, and life philosophy—sharp, thought-provoking, and often timeless.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Litemind",
+      "url": "https://web.archive.org/web/20230805091418/https://litemind.com/",
+      "notes": "A (now dead) site by Luciano Passuello dedicated to mental clarity and personal development. It covers topics like mind mapping, creativity, decision-making, and brainpower enhancement.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Oliver Emberton",
+      "url": "https://oliveremberton.com/",
+      "notes": "Known for his visual, story-driven blog posts, Oliver writes about life strategies, productivity, motivation, and self-improvement in a highly engaging, almost fable-like style.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Barking Up the Wrong Tree",
+      "url": "https://www.bakadesuyo.com/",
+      "notes": "Run by Eric Barker, this blog breaks down academic research on happiness, success, relationships, and productivity—translated into practical, often counterintuitive advice.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Scott H Young",
+      "url": "https://scotthyoung.com/blog/",
+      "notes": "Best known for his “Ultralearning” experiments, Scott explores accelerated learning, cognitive performance, and the pursuit of mastery through real-world challenges.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Nat Eliason",
+      "url": "https://www.nateliason.com/blog",
+      "notes": "Covers a wide spectrum from digital entrepreneurship and crypto to curiosity-driven learning, self-exploration, and building a meaningful, sovereign life.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Tiago Forte – Forte Labs",
+      "url": "https://fortelabs.com/blog/",
+      "notes": "Home of the “Second Brain” method, Forte Labs teaches modern knowledge management, digital productivity, and how to build systems that scale your thinking.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Cal Newport",
+      "url": "https://www.calnewport.com/blog/",
+      "notes": "Author of Deep Work, Newport advocates for focused, meaningful work and digital minimalism. His writing blends computer science with timeless productivity principles.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Zach Pogrob",
+      "url": "https://www.instagram.com/zachpogrob/",
+      "notes": "Creates punchy, visual content on Instagram focused on greatness, discipline, and the mindset of high performers. A mix of art and self-development philosophy.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Michael Simmons",
+      "url": "https://michaeldsimmons.com/blog",
+      "notes": "Focuses on lifelong learning, compounding knowledge, and building meta-skills like decision-making and relationship-building—often backed by research and dense insight.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Steph Smith",
+      "url": "https://blog.stephsmith.io",
+      "notes": "Writes about learning in public, remote work, productivity, and the creator economy. Her essays are known for their honesty, depth, and data-backed reflections.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "David Kadavy",
+      "url": "https://kadavy.net/",
+      "notes": "An author and designer who focuses on creative independence, habit design, and self-expression. His work encourages working smarter, not harder, especially for creatives.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Ali Abdaal",
+      "url": "https://aliabdaal.com/blog",
+      "notes": "A former doctor turned content creator who distills insights from medicine, business, and personal growth into clear, actionable content on health, study, and happiness.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Forge by Medium",
+      "url": "https://forge.medium.com",
+      "notes": "Medium’s curated publication featuring essays on productivity, personal growth, career advice, and mindfulness—mainstream, but usually thoughtful and practical.",
+      "category": "Personal Growth / Productivity / Thinking"
+    },
+    {
+      "title": "Darren Allen – Expressive Egg",
+      "url": "https://expressiveegg.org/",
+      "notes": "Explores modern society, culture, and authenticity through a radical philosophical lens",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "The Marginalian",
+      "url": "https://www.themarginalian.org/",
+      "notes": "(formerly Brain Pickings) Curated by Maria Popova, this beautifully written blog blends literature, philosophy, science, and art. It explores timeless ideas with poetic insight and intellectual warmth.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Raptitude",
+      "url": "https://www.raptitude.com",
+      "notes": "David Cain writes contemplative essays on how to be a better human. Raptitude blends philosophy, mindfulness, and lived experimentation to encourage grounded life improvement.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Mark Manson",
+      "url": "https://markmanson.net/articles",
+      "notes": "Author of The Subtle Art of Not Giving a F*ck, Mark’s work focuses on uncomfortable truths, real-world psychology, and developing resilience in a chaotic world.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Steve Pavlina",
+      "url": "https://stevepavlina.com/blog",
+      "notes": "Early pioneer in personal development blogging, Pavlina writes long-form reflections on consciousness, intentional living, and exploring unconventional paths to personal freedom.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "The School of Life",
+      "url": "https://www.theschooloflife.com/thebookoflife/",
+      "notes": "Founded by Alain de Botton, this project offers insights on emotional intelligence, relationships, purpose, and mental well-being—philosophy applied to daily life.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Zen Habits",
+      "url": "https://zenhabits.net/",
+      "notes": "Created by Leo Babauta, Zen Habits is a minimalist, mindful approach to life through comics. It focuses on simplicity, habit change, inner peace, and letting go of unnecessary clutter.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "David Whyte",
+      "url": "https://davidwhyte.com/essays",
+      "notes": "A poet and philosopher, Whyte explores vulnerability, work, courage, and the inner life. His writings and talks combine lyrical language with profound human truths.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Charles Eisenstein",
+      "url": "https://charleseisenstein.org/essays/",
+      "notes": "Known for The More Beautiful World Our Hearts Know Is Possible, Eisenstein writes about civilization, spirituality, interbeing, and shifting narratives of progress and separation.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Sam Harris – Waking Up Blog",
+      "url": "https://samharris.org/articles",
+      "notes": "Neuroscientist and philosopher Sam Harris explores consciousness, meditation, ethics, and spirituality from a rationalist perspective. Often challenging but clarifying.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "David Chapman – Meaningness",
+      "url": "https://meaningness.com/",
+      "notes": "A complex, often mind-bending exploration of meaning, metaphysics, and societal narratives. Chapman critiques both traditional and modernist views, offering alternatives like “meta-rationality.”",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "The Side View",
+      "url": "https://thesideview.co/",
+      "notes": "Bridging ancient wisdom and contemporary theory, The Side View explores perception, attention, and practice—integrating philosophy, science, and spirituality.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "John Vervaeke – Meaning Crisis",
+      "url": "https://www.johnvervaeke.com/",
+      "notes": "Cognitive scientist John Vervaeke’s work addresses the “crisis of meaning” in modern society. His lectures explore wisdom, consciousness, and integrating ancient insights with modern science.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "The Stoa",
+      "url": "https://thestoa.ca/",
+      "notes": "An online intellectual salon that emerged during the pandemic. The Stoa hosts dialogues on philosophy, meaning-making, systems thinking, and cultural transformation—raw and exploratory.",
+      "category": "Philosophy / Meaning / Self-Awareness"
+    },
+    {
+      "title": "Wait But Why",
+      "url": "https://waitbutwhy.com",
+      "notes": "Entertaining long-form posts that blend stick-figure humor with deep exploration of complex topics.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "LessWrong",
+      "url": "https://www.lesswrong.com",
+      "notes": "A community blog and forum dedicated to refining rationality, decision theory, and effective altruism. It focuses on cognitive biases, epistemology, and improving thinking.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Ribbonfarm",
+      "url": "https://www.ribbonfarm.com/",
+      "notes": "Venkatesh Rao’s site featuring long-form essays on complex systems, culture, technology, and strategy—often contrarian, poetic, and interdisciplinary.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Melting Asphalt",
+      "url": "https://meltingasphalt.com/",
+      "notes": "A personal blog by Nathan Baschez about technology, startups, investing, and systems thinking, mixing sharp insights with practical analysis.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Aeon",
+      "url": "https://aeon.co/",
+      "notes": "An online magazine publishing thoughtful essays on philosophy, culture, science, and the human condition, often blending academic rigor with accessible writing.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "The Profile",
+      "url": "https://www.readtheprofile.com/",
+      "notes": "Curated biographies and deep dives into the lives of interesting thinkers, leaders, and creators. Offers insights into their motivations and thought processes.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Stratechery",
+      "url": "https://stratechery.com/",
+      "notes": "Ben Thompson’s influential analysis of tech business strategy, media, and markets. Clear, data-driven insights on the evolving technology landscape.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Tomas Pueyo – Uncharted Territories",
+      "url": "https://unchartedterritories.tomaspueyo.com/",
+      "notes": "Writes detailed, data-backed essays on pandemics, technology, and societal shifts, with a focus on understanding uncertainty and complex change.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Julian Lehr",
+      "url": "https://julian.digital/",
+      "notes": "Focuses on crypto, finance, and emerging technology trends, offering sharp commentary and research for understanding disruptive markets.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Refactor Camp",
+      "url": "https://www.refactorcamp.org/",
+      "notes": "A community-driven space dedicated to better ways of working, productivity, and software development culture with emphasis on reflection and intentional practice.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Holistically Liz",
+      "url": "https://holisticallyliz.com/blog",
+      "notes": "A blog exploring holistic wellness, personal growth, and integrative health from an experiential and mindful perspective.",
+      "category": "Systems Thinking / Complexity / Strategy"
+    },
+    {
+      "title": "Ness Labs",
+      "url": "https://nesslabs.com/best",
+      "notes": "Focused on mindful productivity, creativity, and personal growth, Ness Labs offers articles and tools that help nurture curiosity and thoughtful work habits.",
+      "category": "Creativity / Digital Writing"
+    },
+    {
+      "title": "Austin Kleon",
+      "url": "https://austinkleon.com/blog/",
+      "notes": "Author of Steal Like an Artist, Kleon shares insights on creativity, artistic process, and how to build a creative life through simplicity and openness.",
+      "category": "Creativity / Digital Writing"
+    },
+    {
+      "title": "Craig Mod",
+      "url": "https://craigmod.com/",
+      "notes": "Writer and photographer exploring long-form storytelling, travel, design, and the future of books and publishing with a thoughtful, minimalist approach.",
+      "category": "Creativity / Digital Writing"
+    },
+    {
+      "title": "Jessica Abel",
+      "url": "https://jessicaabel.com/blog/",
+      "notes": "Cartoonist and educator known for teaching storytelling, comics, and creative writing, focusing on both craft and the creative process.",
+      "category": "Creativity / Digital Writing"
+    },
+    {
+      "title": "Maggie Appleton",
+      "url": "https://maggieappleton.com/blog",
+      "notes": "Designer and illustrator who creates visual explanations about technology, culture, and history, making complex ideas accessible and engaging through art.",
+      "category": "Creativity / Digital Writing"
+    }
+  ]
+}

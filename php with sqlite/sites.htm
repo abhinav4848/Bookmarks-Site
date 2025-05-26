@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoughtful Websites – Bookmark Sheet</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f9fafb;
+            color: #1f2937;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.75rem;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            border: 1px solid #d1d5db;
+            border-radius: 0.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 2rem;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f3f4f6;
+            font-size: 1.1rem;
+        }
+
+        td.notes {
+            width: 50%;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .category {
+            margin-top: 2rem;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background: #e5e7eb;
+            padding: 0.5rem 1rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
+            color: #374151;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="mainTitle">🧠 Thoughtful Websites Bookmark Sheet</h1>
+    <input type="text" id="searchInput" placeholder="Search websites or notes...">
+
+    <script>
+        function filterTable() {
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const categories = document.querySelectorAll(".category");
+            let hasMatch = false;
+            let visibleRows = 0;
+
+            categories.forEach(category => {
+                const rows = category.querySelectorAll("tbody tr");
+                let categoryHasMatch = false;
+
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    const isMatch = text.includes(input);
+                    row.style.display = isMatch ? "" : "none";
+                    if (isMatch) {
+                        categoryHasMatch = true;
+                        visibleRows++;
+                    }
+                });
+
+                category.style.display = categoryHasMatch ? "" : "none";
+                if (categoryHasMatch) hasMatch = true;
+            });
+
+            document.getElementById("footer").style.display = hasMatch ? "block" : "none";
+            document.getElementById("footerCount").textContent = visibleRows;
+        }
+
+        document.getElementById("searchInput").addEventListener("input", filterTable);
+    </script>
+
+    <div class="category">
+        <h2>Personal Growth / Productivity / Thinking</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Your Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://fs.blog/blog" target="_blank">Farnam Street – FS Blog</a></td>
+                    <td class="notes">Farnam Street (FS) is a blog and learning platform founded by Shane Parrish,
+                        dedicated to helping readers understand how the world really works, make better decisions, and
+                        live a better life. The site emphasizes timeless lessons on decision-making, thinking, and
+                        continuous improvement.
+
+                        Key topics covered include mental models, decision-making, learning, reading, and the art of
+                        living. Farnam Street also offers a podcast, "The Knowledge Project," where Shane Parrish
+                        interviews experts to uncover insights on various subjects.
+
+                        The blog is known for its multidisciplinary approach, drawing from fields like psychology,
+                        philosophy, and business to provide readers with tools and frameworks for better thinking and
+                        decision-making.
+
+                        Farnam Street's mission is to master the best of what other people have already figured out,
+                        making complex ideas accessible and practical for personal and professional growth.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://jamesclear.com/3-2-1" target="_blank">James Clear – 3-2-1 Newsletter</a></td>
+                    <td class="notes">A concise weekly newsletter featuring 3 short ideas from James, 2 quotes from
+                        others, and 1 question for the reader—designed to provoke clarity, habit-building, and
+                        reflection.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://radreads.co" target="_blank">RadReads</a></td>
+                    <td class="notes">Created by Khe Hy, this site explores productivity, purpose, and making
+                        high-leverage life choices. Known for its "Superorganizers" series and content that bridges
+                        wealth and wisdom.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://radreads.co/superorganizers/" target="_blank">Khe Hy – Superorganizers
+                            (RadReads)</a></td>
+                    <td class="notes">Founder of RadReads, Khe Hy explores how high performers organize their digital
+                        and mental lives—from productivity systems to existential questions about meaning and success.
+                        The site explores productivity, purpose, and making high-leverage life choices. Known for its
+                        "Superorganizers" series and content that bridges wealth and wisdom.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.perell.com/blog" target="_blank">David Perell</a></td>
+                    <td class="notes">Also known as “The Writing Guy,” Perell writes about the intersection of writing,
+                        media, and the internet. He emphasizes idea development, personal leverage, and online
+                        education.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.julian.com/guide" target="_blank">Julian Shapiro</a></td>
+                    <td class="notes">Julian distills complicated topics like writing, creativity, and growth into
+                        crystal-clear guides. He’s known for making the abstract feel actionable and immediate.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://paulgraham.com/articles.html" target="_blank">Paul Graham</a></td>
+                    <td class="notes">Co-founder of Y Combinator, Paul Graham writes deeply analytical essays on
+                        startups, technology, wealth, education, and life philosophy—sharp, thought-provoking, and often
+                        timeless.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://web.archive.org/web/20230805091418/https://litemind.com/"
+                            target="_blank">Litemind</a></td>
+                    <td class="notes">A (now dead) site by Luciano Passuello dedicated to mental clarity and personal
+                        development. It covers topics like mind mapping, creativity, decision-making, and brainpower
+                        enhancement.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://oliveremberton.com/" target="_blank">Oliver Emberton</a></td>
+                    <td class="notes">Known for his visual, story-driven blog posts, Oliver writes about life
+                        strategies, productivity, motivation, and self-improvement in a highly engaging, almost
+                        fable-like style.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.bakadesuyo.com/" target="_blank">Barking Up the Wrong Tree</a></td>
+                    <td class="notes">Run by Eric Barker, this blog breaks down academic research on happiness, success,
+                        relationships, and productivity—translated into practical, often counterintuitive advice.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://scotthyoung.com/blog/" target="_blank">Scott H Young</a></td>
+                    <td class="notes">Best known for his “Ultralearning” experiments, Scott explores accelerated
+                        learning, cognitive performance, and the pursuit of mastery through real-world challenges.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.nateliason.com/blog" target="_blank">Nat Eliason</a></td>
+                    <td class="notes">Covers a wide spectrum from digital entrepreneurship and crypto to
+                        curiosity-driven learning, self-exploration, and building a meaningful, sovereign life.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://fortelabs.com/blog/" target="_blank">Tiago Forte – Forte Labs</a></td>
+                    <td class="notes">Home of the “Second Brain” method, Forte Labs teaches modern knowledge management,
+                        digital productivity, and how to build systems that scale your thinking.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.calnewport.com/blog/" target="_blank">Cal Newport</a></td>
+                    <td class="notes">Author of Deep Work, Newport advocates for focused, meaningful work and digital
+                        minimalism. His writing blends computer science with timeless productivity principles.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.instagram.com/zachpogrob/" target="_blank">Zach Pogrob</a></td>
+                    <td class="notes">Creates punchy, visual content on Instagram focused on greatness, discipline, and
+                        the mindset of high performers. A mix of art and self-development philosophy.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://michaeldsimmons.com/blog" target="_blank">Michael Simmons</a></td>
+                    <td class="notes">Focuses on lifelong learning, compounding knowledge, and building meta-skills like
+                        decision-making and relationship-building—often backed by research and dense insight.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://blog.stephsmith.io" target="_blank">Steph Smith</a></td>
+                    <td class="notes">Writes about learning in public, remote work, productivity, and the creator
+                        economy. Her essays are known for their honesty, depth, and data-backed reflections.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://kadavy.net/" target="_blank">David Kadavy</a></td>
+                    <td class="notes">An author and designer who focuses on creative independence, habit design, and
+                        self-expression. His work encourages working smarter, not harder, especially for creatives.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://aliabdaal.com/blog" target="_blank">Ali Abdaal</a></td>
+                    <td class="notes">A former doctor turned content creator who distills insights from medicine,
+                        business, and personal growth into clear, actionable content on health, study, and happiness.
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://forge.medium.com" target="_blank">Forge by Medium</a></td>
+                    <td class="notes">Medium’s curated publication featuring essays on productivity, personal growth,
+                        career advice, and mindfulness—mainstream, but usually thoughtful and practical.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="category">
+        <h2>Philosophy / Meaning / Self-Awareness</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Your Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://expressiveegg.org/" target="_blank">Darren Allen – Expressive Egg</a></td>
+                    <td class="notes">Explores modern society, culture, and authenticity through a radical philosophical
+                        lens</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.themarginalian.org/" target="_blank">The Marginalian</a></td>
+                    <td class="notes">(formerly Brain Pickings)
+                        Curated by Maria Popova, this beautifully written blog blends literature, philosophy, science,
+                        and art. It explores timeless ideas with poetic insight and intellectual warmth.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.raptitude.com" target="_blank">Raptitude</a></td>
+                    <td class="notes">David Cain writes contemplative essays on how to be a better human. Raptitude
+                        blends philosophy, mindfulness, and lived experimentation to encourage grounded life
+                        improvement.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://markmanson.net/articles" target="_blank">Mark Manson</a></td>
+                    <td class="notes">Author of The Subtle Art of Not Giving a F*ck, Mark’s work focuses on
+                        uncomfortable truths, real-world psychology, and developing resilience in a chaotic world.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://stevepavlina.com/blog" target="_blank">Steve Pavlina</a></td>
+                    <td class="notes">Early pioneer in personal development blogging, Pavlina writes long-form
+                        reflections on consciousness, intentional living, and exploring unconventional paths to personal
+                        freedom.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.theschooloflife.com/thebookoflife/" target="_blank">The School of Life</a>
+                    </td>
+                    <td class="notes">Founded by Alain de Botton, this project offers insights on emotional
+                        intelligence, relationships, purpose, and mental well-being—philosophy applied to daily life.
+                    </td>
+                </tr>
+                <tr>
+                    <td><a href="https://zenhabits.net/" target="_blank">Zen Habits</a></td>
+                    <td class="notes">Created by Leo Babauta, Zen Habits is a minimalist, mindful approach to life
+                        through comics. It focuses on simplicity, habit change, inner peace, and letting go of
+                        unnecessary clutter.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://davidwhyte.com/essays" target="_blank">David Whyte</a></td>
+                    <td class="notes">A poet and philosopher, Whyte explores vulnerability, work, courage, and the inner
+                        life. His writings and talks combine lyrical language with profound human truths.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://charleseisenstein.org/essays/" target="_blank">Charles Eisenstein</a></td>
+                    <td class="notes">Known for The More Beautiful World Our Hearts Know Is Possible, Eisenstein writes
+                        about civilization, spirituality, interbeing, and shifting narratives of progress and
+                        separation.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://samharris.org/articles" target="_blank">Sam Harris – Waking Up Blog</a></td>
+                    <td class="notes">Neuroscientist and philosopher Sam Harris explores consciousness, meditation,
+                        ethics, and spirituality from a rationalist perspective. Often challenging but clarifying.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://meaningness.com/" target="_blank">David Chapman – Meaningness</a></td>
+                    <td class="notes">A complex, often mind-bending exploration of meaning, metaphysics, and societal
+                        narratives. Chapman critiques both traditional and modernist views, offering alternatives like
+                        “meta-rationality.”</td>
+                </tr>
+                <tr>
+                    <td><a href="https://thesideview.co/" target="_blank">The Side View</a></td>
+                    <td class="notes">Bridging ancient wisdom and contemporary theory, The Side View explores
+                        perception, attention, and practice—integrating philosophy, science, and spirituality.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.johnvervaeke.com/" target="_blank">John Vervaeke – Meaning Crisis</a></td>
+                    <td class="notes">Cognitive scientist John Vervaeke’s work addresses the “crisis of meaning” in
+                        modern society. His lectures explore wisdom, consciousness, and integrating ancient insights
+                        with modern science.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://thestoa.ca/" target="_blank">The Stoa</a></td>
+                    <td class="notes">An online intellectual salon that emerged during the pandemic. The Stoa hosts
+                        dialogues on philosophy, meaning-making, systems thinking, and cultural transformation—raw and
+                        exploratory.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="category">
+        <h2>Systems Thinking / Complexity / Strategy</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Your Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://waitbutwhy.com" target="_blank">Wait But Why</a></td>
+                    <td class="notes">Entertaining long-form posts that blend stick-figure humor with deep exploration
+                        of complex topics.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.lesswrong.com" target="_blank">LessWrong</a></td>
+                    <td class="notes">A community blog and forum dedicated to refining rationality, decision theory, and
+                        effective altruism. It focuses on cognitive biases, epistemology, and improving thinking.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.ribbonfarm.com/" target="_blank">Ribbonfarm</a></td>
+                    <td class="notes">Venkatesh Rao’s site featuring long-form essays on complex systems, culture,
+                        technology, and strategy—often contrarian, poetic, and interdisciplinary.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://meltingasphalt.com/" target="_blank">Melting Asphalt</a></td>
+                    <td class="notes">A personal blog by Nathan Baschez about technology, startups, investing, and
+                        systems thinking, mixing sharp insights with practical analysis.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://aeon.co/" target="_blank">Aeon</a></td>
+                    <td class="notes">An online magazine publishing thoughtful essays on philosophy, culture, science,
+                        and the human condition, often blending academic rigor with accessible writing.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.readtheprofile.com/" target="_blank">The Profile</a></td>
+                    <td class="notes">Curated biographies and deep dives into the lives of interesting thinkers,
+                        leaders, and creators. Offers insights into their motivations and thought processes.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://stratechery.com/" target="_blank">Stratechery</a></td>
+                    <td class="notes">Ben Thompson’s influential analysis of tech business strategy, media, and markets.
+                        Clear, data-driven insights on the evolving technology landscape.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://unchartedterritories.tomaspueyo.com/" target="_blank">Tomas Pueyo – Uncharted
+                            Territories</a></td>
+                    <td class="notes">Writes detailed, data-backed essays on pandemics, technology, and societal shifts,
+                        with a focus on understanding uncertainty and complex change.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://julian.digital/" target="_blank">Julian Lehr</a></td>
+                    <td class="notes">Focuses on crypto, finance, and emerging technology trends, offering sharp
+                        commentary and research for understanding disruptive markets.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.refactorcamp.org/" target="_blank">Refactor Camp</a></td>
+                    <td class="notes">A community-driven space dedicated to better ways of working, productivity, and
+                        software development culture with emphasis on reflection and intentional practice.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://holisticallyliz.com/blog" target="_blank">Holistically Liz</a></td>
+                    <td class="notes">A blog exploring holistic wellness, personal growth, and integrative health from
+                        an experiential and mindful perspective.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="category">
+        <h2>Creativity / Digital Writing</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Website</th>
+                    <th>Your Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://nesslabs.com/best" target="_blank">Ness Labs</a></td>
+                    <td class="notes">Focused on mindful productivity, creativity, and personal growth, Ness Labs offers
+                        articles and tools that help nurture curiosity and thoughtful work habits.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://austinkleon.com/blog/" target="_blank">Austin Kleon</a></td>
+                    <td class="notes">Author of Steal Like an Artist, Kleon shares insights on creativity, artistic
+                        process, and how to build a creative life through simplicity and openness.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://craigmod.com/" target="_blank">Craig Mod</a></td>
+                    <td class="notes">Writer and photographer exploring long-form storytelling, travel, design, and the
+                        future of books and publishing with a thoughtful, minimalist approach.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://jessicaabel.com/blog/" target="_blank">Jessica Abel</a></td>
+                    <td class="notes">Cartoonist and educator known for teaching storytelling, comics, and creative
+                        writing, focusing on both craft and the creative process.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://maggieappleton.com/blog" target="_blank">Maggie Appleton</a></td>
+                    <td class="notes">Designer and illustrator who creates visual explanations about technology,
+                        culture, and history, making complex ideas accessible and engaging through art.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="footer" class="hidden">Visible bookmarks: <span id="footerCount">0</span></div>
+</body>
+
+</html>
